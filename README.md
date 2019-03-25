@@ -20,5 +20,7 @@ python2 main.py
 # How To Use
 <br>Next Connect to vpn server like psiphon on 127.0.0.1 8080
 <br>Includ the termux from psiphon
+<br>For others host edit in SimpleServer.ini
+
 
 
