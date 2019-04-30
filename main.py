@@ -9,7 +9,6 @@ import ServerPinger
 import ServerHandler
 ru = lambda text: text.decode('utf-8', 'ignore')
 
-
 class Server:
 
     def __init__(self):
@@ -117,7 +116,7 @@ class Server:
         time.sleep(1)
         sys.stderr.write(self.config('Configuration'))
         time.sleep(2)
-        sys.stderr.write(self.log('========Inject Sukses======== \nReading Server:'))
+        sys.stderr.write(self.log('========Bang Koko======== \nGunakan dengan bijak. XL kiplix jabar indramayu jtb:'))
 
     def run(self):
         ServerHandler.LogWindow(True)
